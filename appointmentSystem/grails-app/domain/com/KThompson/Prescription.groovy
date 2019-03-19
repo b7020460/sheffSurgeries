@@ -1,6 +1,6 @@
 package com.KThompson
 
-class Precription {
+class Prescription {
 String pharmacyName
 int pharmacyNumber
 String medicine
