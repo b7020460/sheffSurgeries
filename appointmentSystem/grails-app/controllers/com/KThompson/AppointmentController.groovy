@@ -2,5 +2,5 @@ package com.KThompson
 
 class AppointmentController {
 
-    def index() { }
+    def scaffold = Appointment
 }

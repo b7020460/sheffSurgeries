@@ -2,5 +2,5 @@ package com.KThompson
 
 class ReceptionistController {
 
-    def index() { }
+    def scaffold = Receptionist
 }

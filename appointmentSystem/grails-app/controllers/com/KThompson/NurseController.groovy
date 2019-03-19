@@ -2,5 +2,5 @@ package com.KThompson
 
 class NurseController {
 
-    def index() { }
+    def scaffold = Nurse
 }
