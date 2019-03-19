@@ -10,7 +10,7 @@ String doctorOffice
 int doctorPhone
 String bio
     static constraints = {
-fullname nullable:false, blank:false
+fullName nullable:false, blank:false
 qualification nullable:false, blank:false
 position nullable:false, blank:false
 doctoremail nullable:false, blank:false, email:true
