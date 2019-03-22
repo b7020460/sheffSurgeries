@@ -6,6 +6,7 @@ String recapEmail
 String recapUsername
 String recapPassword
 int recapPhone
+static belongsTo=[Surgery]
     static constraints = {
 recapName nullable:false, blank:false
 recapEmail nullable:false, blank:false, email:true

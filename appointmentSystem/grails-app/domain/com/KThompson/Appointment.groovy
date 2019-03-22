@@ -5,6 +5,8 @@ Date appDate
 String appTime
 int appDuration
 String roomNumber
+Patient patient
+static hasOne =[patient:Patient]
     static constraints = {
 appDate nullable:false, blank:false
 appTime nullable:false, blank:false
