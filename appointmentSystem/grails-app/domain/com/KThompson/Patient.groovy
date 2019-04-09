@@ -7,9 +7,12 @@ String patientResidence
 Date patientDob
 String patientID
 Date dateRegistered
-int patientPhone
-static hasMany= [prescription:Prescription, surgery:Surgery, doctor:Doctor]
-static hasOne =[appointment:Appointment]
+String patientPhone
+String toString(){
+return patientName
+}
+static hasMany= [prescriptions:Prescription, surgerys:Surgery, doctors:Doctor, appointments:Appointment]
+static belongsTo=[Doctor, Surgery]
     static constraints = {
 patientName nullable:false, blank:false
 patientAddress nullable:false, blank:false

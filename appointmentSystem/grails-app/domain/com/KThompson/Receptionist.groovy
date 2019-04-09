@@ -1,17 +1,21 @@
 package com.KThompson
 
 class Receptionist {
-String recapName
-String recapEmail
-String recapUsername
-String recapPassword
-int recapPhone
+String recepName
+String recepEmail
+String recepUsername
+String recepPassword
+String recepPhone
+String toString(){
+return recepName
+}
+static hasMany= [surgerys:Surgery]
 static belongsTo=[Surgery]
     static constraints = {
-recapName nullable:false, blank:false
-recapEmail nullable:false, blank:false, email:true
-recapUsername nullable:false, blank:false
-recapPassword nullable:false, blank:false
-recapPhone nullable:false, blank:false, maxsize:15
+recepName nullable:false, blank:false
+recepEmail nullable:false, blank:false, email:true
+recepUsername nullable:false, blank:false
+recepPassword nullable:false, blank:false
+recepPhone nullable:false, blank:false, maxsize:15
     }
 }
